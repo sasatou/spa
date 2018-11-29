@@ -2,7 +2,7 @@
   "name": "my-project",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "sasatou <sasaki99999@gmail.com>",
+  "author": "sasatou",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "buttercms": "^1.1.3",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
