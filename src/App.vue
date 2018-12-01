@@ -28,12 +28,11 @@ export default {
 }
 </script>
 
-<style{{#sass}} lang="scss"{{/sass}}>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
@@ -54,4 +53,8 @@ li {
 
 a {color: #42b983;}
 
+.post{
+  p{line-height: 2.2;}
+  img{width: 100%;}
+}
 </style>
