@@ -18,7 +18,8 @@ export default {
       items: [
         { title: 'top', path: '/' },
         { title: 'profile', path: '/profile' },
-        { title: 'skill', path: '/skill' },
+        // { title: 'skill', path: '/skill' },
+        { title: 'blog', path: '/blog' },
         { title: 'output', path: '/output' }
       ]
     }
